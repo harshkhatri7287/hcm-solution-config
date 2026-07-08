@@ -1300,6 +1300,10 @@
                             {
                               "key": "deliveryStrategy",
                               "value": "DIRECT"
+                            },
+                            {
+                              "key": "futureDoses",
+                              "value": "{{fn:getFutureIndirectDeliveries()}}"
                             }
                           ],
                           "name": "DELIVERY",
@@ -5532,6 +5536,14 @@
                   {
                     "key": "doseIndex",
                     "value": "1"
+                  },
+                  {
+                    "key": "deliveryStrategy",
+                    "value": "DIRECT"
+                  },
+                  {
+                    "key": "futureDoses",
+                    "value": "{{fn:getFutureIndirectDeliveries()}}"
                   }
                 ],
                 "name": "DELIVERY",
